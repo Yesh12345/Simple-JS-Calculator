@@ -1,0 +1,111 @@
+body{
+    background-color: orange;
+}
+#upper-calc{
+    border-radius: 6px;
+    padding: 10px 0;
+    text-align: center;
+    width: 405px;
+    height: 90px;
+    background-color: #1C3626 ;
+}
+#calc{
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    transform: translateX(-50%);
+}
+#input-text{
+    background-color: #92DB65;
+    border: 4px solid black;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    width: 340px;
+    height: 50px;
+    padding: 15px 15px;
+    outline: none;
+}
+.buttons{
+    font-family:'Londrina Solid', cursive;;
+    color: white;
+    background-color: #464646;
+    font-size: 22px;
+    padding: 12px 22px;
+    border: 4px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+}
+#zero{
+    font-family:'Londrina Solid', cursive;;
+    color: white;
+    background-color: #464646;
+    font-size: 24px;
+    padding: 15px 70px;
+    border: 4px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+}
+#zero:hover, #point-btn:hover{
+    box-shadow: 2px 2px 10px black;
+}
+#equals{
+    position: absolute;
+    left: 285px;
+    top: 350px;
+    font-family:'Londrina Solid', cursive;;
+    color: white;
+    background-color: #464646;
+    font-size: 24px;
+    height: 150px;
+    padding: 16px 38px;
+    border: 4px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+}
+#seven, #eight, #nine, #four, #five, #six,
+#one, #two, #three{
+    padding: 12px 28.5px;
+}
+#seven:hover, #eight:hover, #nine:hover, #four:hover,
+#five:hover, #six:hover, #one:hover, #two:hover,
+#three:hover{
+    box-shadow: 2px 2px 10px black;
+}
+#lower-calc{
+    border-radius: 6px;
+    padding: 10px;
+    width: 385px;
+    background-color: #818181;
+}
+#div, #mul, #sub, #add{
+    background-color: #FC8404;
+}
+#div:hover, #mul:hover, #sub:hover, #add:hover,
+#point:hover, #clearall-btn, #clear-btn, #equals{
+    box-shadow: 2px 2px 10px black;   
+}
+#clearall-btn:hover, #clear-btn:hover{
+    box-shadow: none;
+}
+#equals:hover{
+    box-shadow: none;
+}
+#clearall-btn, #clear-btn, #equals{
+    background-color: #4CACE4;
+}
+#mul{
+    padding: 12px 19px;
+}
+#point-btn{
+    padding: 16px 34px;
+}
